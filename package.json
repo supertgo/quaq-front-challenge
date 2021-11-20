@@ -23,10 +23,15 @@
     ]
   },
   "dependencies": {
+    "@styled-icons/boxicons-regular": "^10.38.0",
+    "@styled-icons/evaicons-outline": "^10.34.0",
+    "@styled-icons/material-outlined": "^10.34.0",
+    "@styled-icons/octicons": "^10.44.0",
     "next": "11.1.2",
     "next-pwa": "^5.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-slick": "^0.28.1",
     "styled-components": "5.3.1"
   },
   "devDependencies": {
@@ -39,12 +44,13 @@
     "@types/jest": "^27.0.2",
     "@types/node": "^16.10.3",
     "@types/react": "^17.0.27",
+    "@types/react-slick": "^0.23.7",
     "@types/styled-components": "^5.1.15",
     "@typescript-eslint/eslint-plugin": "rc-v5",
     "@typescript-eslint/parser": "rc-v5",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.13.2",
-    "eslint": "^8.0.0",
+    "eslint": "^8.2.0",
     "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
