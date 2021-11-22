@@ -9,5 +9,5 @@ export default {
 export const Default: Story<HeadingProps> = (args) => <Heading {...args} />;
 
 Default.args = {
-  title: 'Title'
+  children: 'Title'
 };
