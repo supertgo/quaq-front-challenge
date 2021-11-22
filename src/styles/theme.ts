@@ -25,13 +25,14 @@ export default {
     }
   },
   colors: {
-    red: '#ff6666',
-    green: '#54946a',
+    red: '#f02641',
+    green: '#25790d',
     white: '#FFFFFF',
     black: '#0C0C0C',
     lightGray: '#F8F8F8',
     gray: '#7B7B7B',
-    lightGreen: '#00cc7a'
+    orange: '#FF9900',
+    lightGreen: '#bff2de'
   },
   spacings: {
     xxsmall: '0.8rem',
