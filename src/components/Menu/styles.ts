@@ -8,7 +8,9 @@ export const Wrapper = styled.div`
     left: 0;
     width: 100%;
     justify-content: center;
+    padding: ${theme.spacings.xsmall} 0;
     z-index: ${theme.layers.base};
+    background-color: ${theme.colors.white};
   `}
 `;
 export const IconWrapper = styled.div`
@@ -16,11 +18,11 @@ export const IconWrapper = styled.div`
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    padding: 0 ${theme.spacings.xsmall} 0 ${theme.spacings.xsmall};
+    padding: 0 ${theme.spacings.small} 0 ${theme.spacings.small};
 
     svg {
       width: 3rem;
-      height: 3rem;
+      height: 2.5rem;
     }
   `}
 `;

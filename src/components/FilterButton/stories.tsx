@@ -22,5 +22,5 @@ export const WithIcon: Story<FilterButtonProps> = (args) => (
 
 WithIcon.args = {
   children: 'Preço',
-  icon: <ArrowIcon size={22} />
+  icon: <ArrowIcon />
 };

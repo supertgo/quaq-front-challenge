@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.main`
+  cursor: pointer;
   width: 7rem;
   align-items: center;
   text-align: center;

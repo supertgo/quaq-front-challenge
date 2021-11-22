@@ -3,7 +3,8 @@ import styled, { css } from 'styled-components';
 export const Wrapper = styled.main`
   ${({ theme }) => css`
     width: 15rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 21rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
     border-radius: ${theme.border.small};
   `}
 `;

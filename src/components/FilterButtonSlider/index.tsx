@@ -8,7 +8,52 @@ export type FilterButtonSliderProps = {
 
 const settings: SliderSettings = {
   arrows: false,
-  slidesToShow: 5
+  slidesToShow: 10,
+  infinite: false,
+  responsive: [
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 8.2
+      }
+    },
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 7.2
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 6.2
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 4.5
+      }
+    },
+    {
+      breakpoint: 500,
+      settings: {
+        slidesToShow: 3.6
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 3.1
+      }
+    },
+    {
+      breakpoint: 350,
+      settings: {
+        slidesToShow: 3.1
+      }
+    }
+  ]
 };
 
 const FilterButtonSlider = ({ items }: FilterButtonSliderProps) => (

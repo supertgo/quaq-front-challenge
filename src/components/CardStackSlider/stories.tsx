@@ -1,40 +1,7 @@
 import { Story, Meta } from '@storybook/react';
 import CardStackSlider, { CardStackSliderProps } from '.';
 
-const items = [
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  },
-  {
-    img: 'img/mercado.png',
-    title: 'Mercado'
-  }
-];
+import items from './mock';
 
 export default {
   title: 'CardStackSlider',

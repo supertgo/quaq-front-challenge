@@ -20,14 +20,22 @@ export const Wrapper = styled.button<WrapperProps>`
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: ${theme.colors.gray};
-    background-color: ${theme.colors.lightGray};
+    background-color: ${theme.colors.white};
+    border: 2px solid ${theme.colors.lightGray};
     border-radius: 1.6rem;
+    min-width: 10rem;
 
     ${!!iconAligment && wrapperModiffiers[iconAligment]()};
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
   `}
 `;
 
-export const Text = styled.span``;
-
-export const Icon = styled.div``;
+export const Text = styled.span`
+  white-space: nowrap;
+`;

@@ -1,12 +1,13 @@
 import 'match-media-mock';
-import CouponSlider from '.';
 
-import mock from './mock';
+import items from './mock';
+
+import RecipeSlider from '.';
 import { renderWithTheme } from 'utils/tests/helper';
 
-describe('<CouponSlider />', () => {
+describe('<RecipeSlider />', () => {
   it('should render the heading', () => {
-    const { container } = renderWithTheme(<CouponSlider items={mock} />);
+    const { container } = renderWithTheme(<RecipeSlider items={items} />);
 
     expect(container.querySelectorAll('.slick-active')).toHaveLength(6);
   });

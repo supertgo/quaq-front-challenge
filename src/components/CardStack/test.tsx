@@ -1,4 +1,5 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
+import { renderWithTheme } from 'utils/tests/helper';
 
 import CardStack from '.';
 
@@ -9,7 +10,7 @@ const props = {
 
 describe('<CardStack />', () => {
   it('should render the heading', () => {
-    const { container } = render(<CardStack {...props} />);
+    const { container } = renderWithTheme(<CardStack {...props} />);
 
     expect(
       screen.getByRole('img', { name: /mercado image/i })
@@ -20,7 +21,7 @@ describe('<CardStack />', () => {
     expect(container.firstChild).toMatchInlineSnapshot(`
       .c0 {
         width: 8rem;
-        height: 8rem;
+        height: 9rem;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -38,6 +39,12 @@ describe('<CardStack />', () => {
         width: 100%;
       }
 
+      .c2 {
+        margin: 0.8rem 0;
+        color: #7B7B7B;
+        font-size: 1.2rem;
+      }
+
       <main
         class="c0"
       >
@@ -47,7 +54,7 @@ describe('<CardStack />', () => {
           src="img/mercado.png"
         />
         <span
-          class=""
+          class="c2"
         >
           Mercado
         </span>

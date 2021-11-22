@@ -6,7 +6,11 @@ export type FilterButtonProps = {
   iconAligment?: 'left' | 'right';
 };
 
-const FilterButton = ({ icon, children, iconAligment }: FilterButtonProps) => (
+const FilterButton = ({
+  icon,
+  children,
+  iconAligment = 'left'
+}: FilterButtonProps) => (
   <S.Wrapper iconAligment={iconAligment}>
     <S.Text>{children}</S.Text>
     {!!icon && icon}

@@ -1,6 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.main`
+  cursor: pointer;
   width: 30rem;
   height: 18rem;
 `;

@@ -1,34 +1,7 @@
 import { Story, Meta } from '@storybook/react';
 import FilterButtonSlider, { FilterButtonSliderProps } from '.';
 
-import { ArrowIosDownwardOutline as ArrowIcon } from '@styled-icons/evaicons-outline/ArrowIosDownwardOutline';
-
-const items = [
-  {
-    children: 'Preço'
-  },
-  {
-    children: 'Preço',
-    icon: <ArrowIcon size={22} />
-  },
-  {
-    children: 'Preço',
-    icon: <ArrowIcon size={22} />,
-    iconAligment: 'left'
-  },
-  {
-    children: 'Preço'
-  },
-  {
-    children: 'Preço',
-    icon: <ArrowIcon size={22} />
-  },
-  {
-    children: 'Preço',
-    icon: <ArrowIcon size={22} />,
-    iconAligment: 'left'
-  }
-];
+import items from './mock';
 
 export default {
   title: 'FilterButtonSlider',
