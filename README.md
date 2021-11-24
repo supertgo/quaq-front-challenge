@@ -12,7 +12,7 @@ Não era necessário um layout responsivo para viewmport do desktop
 ```
  - Entre [http://localhost:3000](http://localhost:3000) no google chrome e cliquei no ícone de 
  - Clique no ícone para baixar o pwa
-<img src="/demo/pwa.png" />
+<img src="/demo/pwa.jpeg" />
   - Abra o pwa baixado
   - 
 ### Pagina do Restaurante
