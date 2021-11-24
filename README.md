@@ -14,7 +14,7 @@ Não era necessário um layout responsivo para viewmport do desktop
  - Clique no ícone para baixar o pwa
 <img src="/demo/pwa.jpeg" />
   - Abra o pwa baixado
-  - 
+  
 ### Pagina do Restaurante
 
 A página do restaurante pode ser testada entrando no link [http://localhost:3000/page2](http://localhost:3000/page2) 
