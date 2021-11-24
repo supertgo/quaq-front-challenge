@@ -1,6 +1,6 @@
 ## Desafio Quaq
 
-Objetivo:  criar um clone não funcional da interface do IFood que rode em um ambiente web PWA.
+Objetivo:  criar um clone não funcional da interface do IFood(interface antiga) que rode em um ambiente web PWA.
 Não era necessário um layout responsivo para viewmport do desktop
 
 
